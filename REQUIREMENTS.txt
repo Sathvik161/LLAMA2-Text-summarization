@@ -1,0 +1,10 @@
+streamlit==1.5.0
+langchain==0.2.1
+llama-cpp-python
+PyPDF2==1.26.0
+docx==0.2.4
+scikit-learn==0.24.2
+streamlit-option-menu==0.5.1
+streamlit-chat==0.2.4
+sentence_transformers
+faiss_cpu
