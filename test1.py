@@ -47,7 +47,7 @@ CHUNK_SIZE = chunk_size_labels[selected_chunk_size_label]
 # Create the LlamaCpp instance
 callback = CallbackManager([StreamingStdOutCallbackHandler()])
 llm = LlamaCpp(
-    model_path="C:\coding\llama2summarize\llama-2-7b-chat.Q8_0.gguf",
+    model_path="PROVIDE-WITH-YOUR-LLAMA2-MODEL-PATH",
     temperature=0.5,
     n_gpu_layers=50,
     n_batch=4096,
@@ -255,7 +255,7 @@ def display_chat_history(chain):
 def create_conversational_chain(vector_store):
     # Create llm
     # Constants
-    MODEL_PATH = "C:\coding\llama2summarize\llama-2-7b-chat.Q8_0.gguf"
+    MODEL_PATH = "PROVIDE-WITH-YOUR-LLAMA2-MODEL-PATH"
     N_GPU_LAYERS = 50
     N_BATCH = 1024
     N_CTX = 2048
